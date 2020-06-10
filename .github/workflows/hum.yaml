@@ -31,4 +31,4 @@ jobs:
       run: npm install --global surge
     
     - name: Deploying and usuing surge
-      run: surge ./ unknown-pen.surge.sh --token & {{secrets.SURGE_TOKEN}}  
+      run: surge ./ unknown-pen.surge.sh --token "531ffe611ab547ddd22ea2af1673807d"
